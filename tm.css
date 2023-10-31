@@ -1,0 +1,215 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.body{
+    background-color: lightgray;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3b372f;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5%;
+    }
+
+    .sidenav a {
+    padding: 2% 2% 2% 10%;
+    text-decoration: none;
+    font-size: 25px;
+    color: lightgray;
+    display: block;
+    transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+    color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 7%;
+    font-size: 150%;
+    margin-left: 15%;
+    }
+
+    @media screen and (max-height: 100%) {
+    .sidenav {padding-top: 10%;}
+    .sidenav a {font-size: 10%;}
+    }
+
+    * {box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif; margin: 0%;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 75%;
+      position: relative;
+      margin: auto;
+    }
+    
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 2s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {font-size: 11px}
+    }
+
+    .hd{
+        color: lightgray;
+        background-color: #575044;
+        border-style: solid ;
+        border-width: 8%;
+    }
+
+    .titolo{
+        float: center;
+        text-align: center;
+        background-color:  #575044;
+        font-size: 800%;
+        padding-right: 23%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .img1{
+        float: left;   
+        width:30%; 
+        padding-left: 10%;
+    }
+
+
+    .mn{
+        text-align: center;
+    }
+
+    .btn1{
+        width:250px; 
+        height:50px;
+        background-color: #575044;
+        color: lightgray;
+        border-color: lightgray ;
+    }
+
+    .btn2{
+        width:250px; 
+        height:50px;
+        background-color: #575044;
+        color: lightgray;
+        border-color: lightgray ;
+    }
+
+    .btn3{
+        width:250px; 
+        height:50px;
+        background-color: #575044;
+        color: lightgray;
+        border-color: lightgray ;
+    }
+
+    .btn4{
+        width:250px; 
+        height:50px;
+        background-color: #575044;
+        color: lightgray;
+        border-color: lightgray ;
+    }
+
+    .btn5{
+        width:250px; 
+        height:50px;
+        background-color: #575044;
+        color: lightgray;
+        border-color: lightgray ;
+    }
+
+    .ar{
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+
+    .ar2{
+        float: center;
+    }
+
+    .h2{
+        text-align: center;
+        font-size: 500%;
+        padding-top:2%;
+        color:  #575044;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .pd{
+        font-size: 140%;
+        color:#575044;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .pd2{
+        font-size: 100%;
+        color: lightgray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+
+    .ft{
+        background-color: #3b372f;
+        border-color: #3b372f;
+        padding-bottom: 2%;
+        padding-top:  2%;
+    }
+
+    .dft{
+        padding-right: 30%;
+    }
+
+    .fp{
+        padding-left: 33%;
+        width: 15%;
+    }
+
+
+
+  
+  
