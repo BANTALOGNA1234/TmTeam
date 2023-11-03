@@ -6,7 +6,30 @@ html {
     background-color: lightgray;
 }
 
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .html {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+    .html {
+    width: 100%;
+  }
 
+  .mn{
+    padding-right: 9%;
+  }
+
+  .img1{
+    display: none;
+  }
+
+  .titolo{
+    display: none;
+  }
+}
 
 .sidenav {
     height: 100%;
@@ -106,61 +129,32 @@ html {
         padding-right: 23%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+    
 
     .img1{
         float: left;   
-        width:30%; 
-        padding-left: 10%;
+        width:15%; 
     }
 
 
     .mn{
         text-align: center;
+        size: 300%;
+
     }
 
-    .btn1{
+    .btn{
         width:250px; 
-        height:50px;
+        height: 50px;
         background-color: #575044;
         color: lightgray;
         border-color: lightgray ;
     }
 
-    .btn2{
-        width:250px; 
-        height:50px;
-        background-color: #575044;
-        color: lightgray;
-        border-color: lightgray ;
-    }
-
-    .btn3{
-        width:250px; 
-        height:50px;
-        background-color: #575044;
-        color: lightgray;
-        border-color: lightgray ;
-    }
-
-    .btn4{
-        width:250px; 
-        height:50px;
-        background-color: #575044;
-        color: lightgray;
-        border-color: lightgray ;
-    }
-
-    .btn5{
-        width:250px; 
-        height:50px;
-        background-color: #575044;
-        color: lightgray;
-        border-color: lightgray ;
-    }
-
+   
     .ar{
         padding-top: 5%;
-        padding-bottom: 3%;
+        padding-bottom: 2%;
     }
 
     .ar2{
@@ -189,6 +183,7 @@ html {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding-left: 5%;
         padding-right: 5%;
+        padding-bottom: 15%;
 
     }
 
@@ -205,11 +200,8 @@ html {
     }
 
     .fp{
-        padding-left: 33%;
-        width: 15%;
-    }
+      padding-left: 33%;
+      width: 15%;
+  }
 
-
-
-  
   
