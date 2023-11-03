@@ -28,6 +28,10 @@
     <!-- SLIDES CHE VANNO  --> 
     <article class="ar">
         <div class="slideshow-container">
+
+            <div class="mySlides fade">
+            <img src="img1.jpg" style="width:100%">
+            </div>
             
             <div class="mySlides fade">
             <img src="img2.JPG" style="width:100%">
@@ -60,7 +64,8 @@
             
             <br>
             
-            <div style="text-align:center"> 
+            <div style="text-align:center">
+            <span class="dot"></span> 
             <span class="dot"></span> 
             <span class="dot"></span> 
             <span class="dot"></span> 
@@ -94,7 +99,6 @@
             Siamo entusiasti di condividere questa avventura con te e darti il benvenuto nella nostra squadra TMTeam!
         </p>
 
-        <p class="fp"><img src="sp.png"></p>
         
     </article>
 
@@ -148,14 +152,14 @@
         const menu = document.getElementById("menu"); 
 
         var btn0 = document.createElement("button");
-        btn0.setAttribute("class", "btn1");
+        btn0.setAttribute("class", "btn");
         btn0.innerHTML = "SOCIAL";
         btn0.addEventListener('click', function(){
            openNav()
         })
         
         var btn1 = document.createElement("button");
-        btn1.setAttribute("class", "btn1");
+        btn1.setAttribute("class", "btn");
         btn1.innerHTML = "CHI SIAMO";
         btn1.addEventListener('click', function(){
            location.href="#chisiamo"
@@ -163,29 +167,29 @@
 
 
         var btn2 = document.createElement("button");
-        btn2.setAttribute("class", "btn2");
+        btn2.setAttribute("class", "btn");
         btn2.innerHTML = "DOVE TROVARCI";
         btn2.addEventListener('click', function(){
-            window.open('https://maps.app.goo.gl/9KdfPv6kacmvgBaJA') ;
+            window.open('https://maps.app.goo.gl/7RKrdrdko7Q6dTKCA') ;
         })
 
 
         var btn3 = document.createElement("button");
-        btn3.setAttribute("class", "btn3");
+        btn3.setAttribute("class", "btn");
         btn3.innerHTML = "EMAIL TM";
         btn3.addEventListener('click', function(){
             window.open("mailto:tmteam@hotmail.it");
         })
 
         var btn4 = document.createElement("button");
-        btn4.setAttribute("class", "btn4");
+        btn4.setAttribute("class", "btn");
         btn4.innerHTML = "SPARA CON NOI";
         btn4.addEventListener('click', function(){
             window.open('https://forms.gle/HkGjpSSdx4i7LgGG6');
         })
 
         var btn5 = document.createElement("button");
-        btn5.setAttribute("class", "btn5");
+        btn5.setAttribute("class", "btn");
         btn5.innerHTML = "CONTENUTO SCARICABILE";
         btn5.addEventListener('click', function(){
             window.open("tm.pdf");
@@ -194,9 +198,9 @@
         menu.appendChild(btn0)
         menu.appendChild(btn1)
         menu.appendChild(btn2)
-        menu.appendChild(btn4) //4
-        menu.appendChild(btn5) //5
-        menu.appendChild(btn3) //3
+        menu.appendChild(btn4) 
+        menu.appendChild(btn5) 
+        menu.appendChild(btn3) 
         
     </script>
 </body>
